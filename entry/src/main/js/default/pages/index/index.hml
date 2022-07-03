@@ -1,0 +1,22 @@
+<div class="container">
+    <text class="title">文件列表</text>
+    <list class="list">
+        <list-item if="{{showBack}}" class="listItem">
+            <div onclick="back">
+                <div>
+                    <image  class="images" src="common/images/dir-icon.png"></image>
+                </div>
+                <text  class="back">返回上一层...</text>
+            </div>
+        </list-item>
+        <list-item for="{{ list }}" class="listItem">
+            <div onclick="open({{$item}})">
+                <div>
+                    <image if="{{ $item.directory }}" class="images" src="common/images/dir-icon.png"></image>
+                    <image else class="images" src="common/images/file-icon.png"></image>
+                </div>
+                <text class="text">{{ $item.fileName }}</text>
+            </div>
+        </list-item>
+    </list>
+</div>
