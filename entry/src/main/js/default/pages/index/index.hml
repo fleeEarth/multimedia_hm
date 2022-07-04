@@ -1,5 +1,5 @@
 <div class="container">
-    <text class="title">文件列表</text>
+    <text class="title">远程文件列表</text>
     <list class="list">
         <list-item if="{{showBack}}" class="listItem">
             <div onclick="back">

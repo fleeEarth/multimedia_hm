@@ -1,0 +1,5 @@
+<div class="container">
+    <text class="title">
+        这是一个文本查看组件
+    </text>
+</div>

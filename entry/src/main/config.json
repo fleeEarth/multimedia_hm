@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "my.multimedia",
+    "bundleName": "my.multimedia.one",
     "vendor": "multimedia",
     "version": {
       "code": 1000000,
@@ -52,7 +52,10 @@
     "js": [
       {
         "pages": [
-          "pages/index/index"
+          "pages/index/index",
+          "pages/comp/video/index",
+          "pages/comp/text/index",
+          "pages/comp/image/index"
         ],
         "name": "default",
         "window": {

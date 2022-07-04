@@ -13,8 +13,6 @@ export function post(params,method) {
         header: [],
         responseType: "json",
         success(data) {
-            console.log(112321)
-            console.log(data);
             return data;
         },
         fail() {
